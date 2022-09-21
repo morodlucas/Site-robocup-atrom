@@ -2,6 +2,15 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.main-title-text{
+    font-size: 520%;
+    transition: .3s;
+}
+
+.main-title-text:hover{
+    color: #DA3560;
+}
+
 .title-text{
-    font-size: 100px;
+    font-size: 500%;
 }
