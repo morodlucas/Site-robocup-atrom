@@ -21,7 +21,7 @@ body{
 }
 
 .highlighter{
-    background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color,#da35618c) 0);
+    background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color,#da356149) 0);
     background-size: 200%;
     background-position: 0;
     transition: background-position 2s;
