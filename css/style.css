@@ -20,7 +20,19 @@ body{
     color: #F8F9FA;
 }
 
-.highlighter-title{
+.highlighter{
+    background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color,#da35615b) 0);
+    background-size: 200%;
+    background-position: 0;
+    transition: background-position 2s;
+}
+
+.highlighter.highlighted{
+    background-position: -100%;
+    background-color: transparent;
+}
+
+/* .highlighter-title{
     background-color: #da35615b;
     animation: glow .7s ease-in-out infinite alternate;
 }
@@ -33,8 +45,4 @@ body{
   to {
     text-shadow: 0 0 30px #ff1389, 0 0 40px #ff1b8d, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 700px #fd1589, 0 0 200px #fa248f;
   }
-}
-
-.highlighter{
-    background-color: #da35615b;
-}
+} */
