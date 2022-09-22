@@ -20,18 +20,18 @@ body{
     color: #F8F9FA;
 }
 
-.highlighter{
+.highlighter-title{
     background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%,var(--text-highlight-color,#da356149) 0);
     background-size: 200%;
     transition: background-position 2s;
 }
 
-.highlighter.highlighted{
+.highlighter-title.highlighted{
     background-position: -100%;
     background-color: transparent;
 }
 
-.highlighter{
+.highlighter-title{
     background-color: #da35615b;
     animation: glow .7s ease-in-out infinite alternate;
 }
@@ -45,3 +45,7 @@ body{
     text-shadow: 0 0 30px #ff1389, 0 0 40px #ff1b8d, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 700px #fd1589, 0 0 200px #fa248f;
   }
 } 
+
+.highlighter{
+    background-color: #da35615b;
+}
