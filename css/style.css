@@ -31,7 +31,7 @@ body{
     background-color: transparent;
 }
 
-/* .highlighter-title{
+.highlighter{
     background-color: #da35615b;
     animation: glow .7s ease-in-out infinite alternate;
 }
@@ -44,4 +44,4 @@ body{
   to {
     text-shadow: 0 0 30px #ff1389, 0 0 40px #ff1b8d, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 700px #fd1589, 0 0 200px #fa248f;
   }
-} */
+} 
