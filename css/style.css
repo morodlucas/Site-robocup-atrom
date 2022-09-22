@@ -20,7 +20,7 @@ body{
     color: #F8F9FA;
 }
 
-.highlighter{
+.highlighter-title{
     background-color: #da35615b;
     animation: glow .7s ease-in-out infinite alternate;
 }
@@ -35,3 +35,6 @@ body{
   }
 }
 
+.highlighter{
+    background-color: #da35615b;
+}
