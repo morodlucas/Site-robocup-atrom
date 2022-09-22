@@ -3,8 +3,9 @@ body{
 }
 
 .main-title-text{
-    font-size: 520%;
+    font-size: 600%;
     transition: .3s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main-title-text:hover{
@@ -13,4 +14,8 @@ body{
 
 .title-text{
     font-size: 3rem;
+}
+
+.bg-color-1{
+    color: #F8F9FA;
 }
